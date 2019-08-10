@@ -1,0 +1,6 @@
+mode: set
+funcoes/funcoes.go:7.25,9.2 1 1
+funcoes/funcoes.go:11.36,16.12 3 1
+funcoes/funcoes.go:21.2,21.23 1 1
+funcoes/funcoes.go:16.12,18.3 1 1
+funcoes/funcoes.go:18.8,20.3 1 0
