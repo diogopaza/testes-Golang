@@ -4,21 +4,21 @@ import (
 	"testing"
 )
 
-func TestSomaUmMAisUm(t *testing.T) {
+func BenchmarkTestSomaUmMAisUm(t *testing.B) {
 	x := soma(1, 1)
 	if x != 2 {
 		t.Error("1+1 nao é igual a 2, obtive ", x)
 	}
 }
 
-func TestSomaUmMaisDois(t *testing.T) {
+func BenchmarkTestSomaUmMaisDois(t *testing.B) {
 	x := soma(1, 2)
 	if x != 3 {
 		t.Error("1+1 nao é igual a 2, obtive ", x)
 	}
 }
 
-func TesteDivide(t *testing.T) {
+func BenchmarkTesteDivide(t *testing.B) {
 	x, err := divide(4, 2)
 	if err != nil {
 		t.Error(err)
@@ -30,7 +30,7 @@ func TesteDivide(t *testing.T) {
 
 }
 
-func TestDividePorZero(t *testing.T) {
+func BenchmarkTestDividePorZero(t *testing.B) {
 	_, err := divide(4, 0)
 	if err != nil {
 		t.Error(err)
