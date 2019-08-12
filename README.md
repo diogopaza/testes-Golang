@@ -15,8 +15,8 @@
 <h1>Benchmark</h1>
 <p>O Go tambem traz uma ferramenta de benchmark para teste de desempenho, que retorna o tempo e também pode retornar a quantidade de memória usada por cada função testada.</p>
 <p>A função deve começar com a palavra Benchmark seguida do restante do nome para o Go interpretar que é um teste de benchmark. Por exemplo BenchmarkSoma.</p>
-<p>O comando go test -bench=. faz o benchmark retornando as funcoes que foram testadas com o tempo de execução de cada uma delas.</p>
-<p>O comando go test -bench=. -benchmem retorna a quantidade de memória utilizada em cada teste.</p>
+<p>O comando <strong>go test -bench=.</strong> faz o benchmark retornando as funcoes que foram testadas com o tempo de execução de cada uma delas.</p>
+<p>O comando <strong>go test -bench=. -benchmem</strong> retorna a quantidade de memória utilizada em cada teste.</p>
 
 
 
